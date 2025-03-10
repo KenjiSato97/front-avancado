@@ -16,14 +16,14 @@ body {
 
 button {
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: #1f5afd;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #1f5afd;
 }
 
 .hidden {
@@ -41,7 +41,8 @@ button:hover {
 }
 
 .country-card {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
+    background-color: #bebebe;
     border-radius: 8px;
     padding: 16px;
     margin: 10px 0;
@@ -52,6 +53,7 @@ button:hover {
     max-width: 200px;
     height: auto;
     margin-bottom: 10px;
+    border: 1px solid #000000;
 }
 
 .country-card h2 {
