@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#searchForm {
+    margin-bottom: 20px;
+}
+
+#countryInput {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    font-style: italic;
+    color: #666;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.country-card img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.country-card h2 {
+    margin: 10px 0;
+}
+
+.country-card p {
+    margin: 5px 0;
+}
