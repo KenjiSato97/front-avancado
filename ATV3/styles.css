@@ -1,29 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+    background-color: #ffe4b1; /* Lighter background */
+    color: #333; /* Darker text color */
 }
 
 #searchForm {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 #countryInput {
-    padding: 8px;
+    padding: 12px;
     width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
 button {
-    padding: 8px 16px;
-    background-color: #1f5afd;
+    padding: 12px 24px;
+    background-color: #51ff00; /* More vibrant button color */
     color: white;
     border: none;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1f5afd;
+    background-color: #267202;
 }
 
 .hidden {
@@ -33,33 +44,42 @@ button:hover {
 #loading {
     font-style: italic;
     color: #666;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #error {
     color: red;
     font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .country-card {
-    border: 1px solid #000000;
-    background-color: #bebebe;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 10px 0;
+    border: 1px solid #a8a8a8;
+    background-color: #a8a8a8;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
     text-align: center;
 }
 
 .country-card img {
     max-width: 200px;
     height: auto;
-    margin-bottom: 10px;
-    border: 1px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .country-card h2 {
+    font-size: 24px;
     margin: 10px 0;
+    color: #000000;
 }
 
 .country-card p {
+    font-size: 16px;
     margin: 5px 0;
+    color: #000000;
 }
